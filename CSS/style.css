@@ -1,0 +1,43 @@
+div
+{
+    width: 150px;
+    height: 150px;
+}
+
+.box1
+{
+    background-color: rgb(199, 42, 188);
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+.box2
+{
+    background-color: rgb(222, 82, 131);
+    position: fixed;
+    right: 0;
+}
+
+.box3
+{
+    background-color: rgb(247, 193, 202);
+    position: absolute;
+    top: 250px;
+    left: 60px;
+}
+
+.box4
+{
+    background-color: purple;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.box5
+{
+    background-color: rgb(54, 3, 102);
+    position: static;
+}
